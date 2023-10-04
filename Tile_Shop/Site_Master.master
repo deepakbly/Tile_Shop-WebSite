@@ -1,0 +1,115 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site_Master.master.cs" Inherits="Site_Master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>WebInnovation</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<!-- Stylesheets -->
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<%--<link rel="icon" href="images/favicon.ico" type="image/x-icon">--%>
+
+<style type="text/css">.fancybox-margin{margin-right:17px;}</style>
+</head>
+<body>
+    <form id="form1" runat="server">
+      
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <footer class="main-footer" style="background-image: url(images/home/footer-bg.jpg);">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12 footer-column">
+                        <div class="logo-widget footer-widget">
+                            <div class="footer-logo"><a href="Home.aspx"><figure><%--<img src="images/home/footer-logo.png" alt="">--%></figure></a></div>
+                            <div class="text">
+                                <p>We have dolor sit amet sed consectes
+                                adipisicing elit sedau donas eiusmod aenim
+                                minim veniam quis notrud tam exercitation
+                                ipsum dolor sit  best services.</p>
+                            </div>
+                            <ul class="footer-social">
+                                <li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
+                                <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+                                <li><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                     <div class="col-md-2 col-sm-6 col-xs-12 footer-column">
+                        <div class="service-widget footer-widget">
+                            <div class="title"><h5>Link</h5></div>
+                            <ul class="list">
+                                <li><a href="Home.aspx">Home</a></li>
+                                <li><a href="About_us.aspx">Abut</a></li>
+                                <li><a href="Our_Services.aspx">Services</a></li>
+                                <li><a href="Our_Products.aspx">Products</a></li>
+                                <li><a href="Contact_us.aspx">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-12 footer-column">
+                        <div class="service-widget footer-widget">
+                            <div class="title"><h5>our products</h5></div>
+                            <ul class="list">
+                                <li><a href="#">Best Carpets</a></li>
+                                <li><a href="#">Hardwood</a></li>
+                                <li><a href="#">Marble Tiles</a></li>
+                                <li><a href="#">Laminate</a></li>
+                                <li><a href="#">Vinyle Sheets</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 footer-column">
+                        <div class="contact-widget footer-widget">
+                            <div class="title"><h5>Contact Info</h5></div>
+                            <div class="single-box">
+                                <div class="icon-box"><i class="fa fa-phone"></i></div>
+                                <p>+1 (0581) 123-4567</p>
+                            </div>
+                            <div class="single-box">
+                                <div class="icon-box"><i class="fa fa-envelope"></i></div>
+                                <p>sales (at) TilesShop.com</p>
+                            </div>
+                            <div class="single-box">
+                                <div class="icon-box"><i class="fa fa-map-marker"></i></div>
+                                <p>4841 Ekta Nagat, Bareilly 79101</p>
+                            </div>
+                        </div>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom centred">
+            <div class="container">
+                <div class="text">© Copyrights 2019 <a href="http://webinnovation.co.in/">WebInnovation</a></div>
+            </div>
+        </div>
+    </footer>
+        <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/wow.js"></script>
+        <script src="js/isotope.js"></script>
+        <script src="js/validation.js"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/jquery.fancybox.pack.js"></script>
+        <script type="text/javascript" src="js/SmoothScroll.js"></script>
+        <script src="js/script.js"></script>
+    </div>
+    </form>
+</body>
+</html>
